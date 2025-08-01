@@ -8,7 +8,7 @@ import java.time.OffsetDateTime;
 public class TransactionRequest {
 
     @NotNull
-    @Min(0)
+    //@Min(0)
     private Double valor;
 
     @NotNull
